@@ -36,20 +36,20 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="𝐇𝐄𝐋𝐏", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣ sᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
+                text="❣ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ❣", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER
+                text="🥀 𝐎𝐖𝐍𝐄𝐑 🥀", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=config.UPSTREAM_REPO
+                text="✨ 𝐒𝐎𝐔𝐑𝐂𝐄 ✨", url=config.UPSTREAM_REPO
             )
         ],
      ]
